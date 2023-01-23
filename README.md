@@ -4,8 +4,8 @@ Welcome to my site! I am so glad you stopped by. My name is Linus Rudbeck and I 
 
 I am always looking for new challenges and opportunities to grow and learn in the tech industry. Thank you for visiting my site and I hope you find the information you are looking for. Feel free to reach out and connect with me if you have any questions or just want to chat. I look forward to getting to know you!
 
-test kl 09:40
-
 [About](/about)
 
 [Read more](/read-more)
+
+[Articles](/articles)
