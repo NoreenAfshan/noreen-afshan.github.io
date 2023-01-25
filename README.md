@@ -9,3 +9,5 @@ I am always looking for new challenges and opportunities to grow and learn in th
 [Read more](/read-more)
 
 [Articles](/articles)
+
+[Thanks](/thank-you)
