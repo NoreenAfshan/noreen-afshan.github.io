@@ -11,3 +11,5 @@ I am always looking for new challenges and opportunities to grow and learn in th
 [Articles](/articles)
 
 [Thanks](/thank-you)
+
+[Purchase complete](/purchase-complete)
