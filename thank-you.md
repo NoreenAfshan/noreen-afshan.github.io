@@ -1,3 +1,3 @@
-# Thank you for purchsing
+# Thank you for purchasing
 
-Thank you for converting on my site!
+Thank you for purchasing on my site!
