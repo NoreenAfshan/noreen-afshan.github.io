@@ -23,4 +23,4 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 <button id="read-article-3">Read art 3</button>
 
-[article](/article)
+
