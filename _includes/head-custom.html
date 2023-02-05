@@ -8,3 +8,43 @@
   gtag('config', 'G-BB5LDTZKG0');
 </script>
 
+<<<<<<< HEAD
+=======
+<script>  
+function sendArtReadEvent(artikelnamn, time) {
+    gtag('event', 'read_article_new', {
+        "artikelnamn": artikelnamn,
+        "time": time,
+    });
+ }
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const readArticle1Button = document.getElementById("Article1");
+
+    if (readArticle1Button) {
+        // Skickar event vid klick på artikel "Article 1"
+        readArticle1Button.addEventListener("click", () => {
+            sendArtReadEvent("Read art 1",)
+        });
+
+        // Skickar event vid klick på artikel "Article 2t"
+        document.getElementById("Read art 2").addEventListener("click", () => {
+            sendArtReadEvent("Read art 2",)
+        });
+
+        // Skickar event vid klick på artikel "Article 3"
+        document.getElementById("Read art 3").addEventListener("click", () => {
+            sendArtReadEvent("Read art 3",)
+        });
+      
+      //Skickar event vid klick på "Purchase"
+      document.getElementById("knapp4").addEventListener("click", () => {
+            sendArtReadEvent("Purchase", 2)
+      });
+      }
+  
+  });
+
+</script>
+>>>>>>> f1c197950937946fd9a26a2ac144b58c195fb4ea
