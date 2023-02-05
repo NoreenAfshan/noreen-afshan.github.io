@@ -9,31 +9,31 @@
 </script>
 
 <script>  
-function sendArtReadEvent(artikelnamn, tid) {
+function sendArtReadEvent(artikelnamn, time) {
     gtag('event', 'read_article_new', {
         "artikelnamn": artikelnamn,
-        "tid": tid,
+        "time": time,
     });
  }
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const readArticle1Button = document.getElementById("knapp1");
+    const readArticle1Button = document.getElementById("Article1");
 
     if (readArticle1Button) {
         // Skickar event vid klick på artikel "Article 1"
         readArticle1Button.addEventListener("click", () => {
-            sendArtReadEvent("Article 1", 1)
+            sendArtReadEvent("Article 1",)
         });
 
         // Skickar event vid klick på artikel "Article 2t"
-        document.getElementById("knapp2").addEventListener("click", () => {
-            sendArtReadEvent("Article 2", 2)
+        document.getElementById("Article 2").addEventListener("click", () => {
+            sendArtReadEvent("Article 2",)
         });
 
         // Skickar event vid klick på artikel "Article 3"
-        document.getElementById("knapp3").addEventListener("click", () => {
-            sendArtReadEvent("Article 3", 3)
+        document.getElementById("Article 3").addEventListener("click", () => {
+            sendArtReadEvent("Article 3",)
         });
       
       //Skickar event vid klick på "Purchase"
