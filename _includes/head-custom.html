@@ -20,22 +20,22 @@ function sendArtReadEvent(artikelnamn, time) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const readArticle1Button = document.getElementById("Article1");
+    const readArticle1Button = document.getElementById("read-article-1");
 
     if (readArticle1Button) {
         // Skickar event vid klick på artikel "Article 1"
         readArticle1Button.addEventListener("click", () => {
-            sendArtReadEvent("Read art 1",)
+            sendArtReadEvent("Article 1", 1)
         });
 
         // Skickar event vid klick på artikel "Article 2t"
-        document.getElementById("Read art 2").addEventListener("click", () => {
-            sendArtReadEvent("Read art 2",)
+        document.getElementById("read-article-2").addEventListener("click", () => {
+            sendArtReadEvent("Article 2", 2)
         });
 
         // Skickar event vid klick på artikel "Article 3"
-        document.getElementById("Read art 3").addEventListener("click", () => {
-            sendArtReadEvent("Read art 3",)
+        document.getElementById("read-article-3").addEventListener("click", () => {
+            sendArtReadEvent("Article 3", 3)
         });
       
       //Skickar event vid klick på "Purchase"
